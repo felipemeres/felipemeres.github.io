@@ -1,3 +1,4 @@
+
 body {
   background-color: #000;
 }
@@ -47,4 +48,37 @@ a {
   99% {
     color: black;
   }
+}
+
+#FM {
+position: relative;
+width: 1728px;
+height: 1117px;
+background: #000000;
+}
+
+#flex {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+position: absolute;
+width: 1728px;
+height: 1117px;
+left: 0px;
+top: 0px;  
+}
+
+#content {
+width: 750px;
+height: 554px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
 }
